@@ -45,8 +45,7 @@ buttons.addEventListener("click", (e) => {
     const operator = calculator.dataset.operator;
     const secondnumber = Number(displayvalue);
 
-    console.log(firstnumber, operator, secondnumber);
-
+    
     //calculation
     let result;
     if (operator === "plus") result = firstnumber + secondnumber;
